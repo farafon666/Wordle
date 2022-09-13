@@ -1,0 +1,69 @@
+html, body {
+  height: 100%;
+  background: linear-gradient(to bottom right, rgb(85, 44, 90), rgb(69, 72, 75));
+}
+
+/* Header */
+h1 {
+  text-align: center;
+}
+
+/* Стиль для всей доски */
+#game-board {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+/* Стиль для строки */
+.letter-row {
+  display: flex;
+}
+
+/* Стиль для клетки */
+.letter-box {
+  border: 2px solid gray;
+  border-radius: 3px;
+  margin: 2px;
+  font-size: 2.5rem;
+  font-weight: 700;
+  height: 3rem;
+  width: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  text-transform: uppercase;
+}
+
+/* Жирная обводка у заполненных клеток */
+.filled-box {
+  border: 3px solid black;
+}
+
+/* Общие настройки для всей клавиатуры */
+#keyboard-cont {
+  margin: 1rem 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Текст внутри контейнера */
+#keyboard-cont div {
+  display: flex;
+}
+
+/* Добавляем отступ между рядами букв */
+.second-row {
+  margin: 0.5rem 0;
+}
+
+/* Настройки внешнего вида каждого элемента с буквами */
+.keyboard-button {
+  font-size: 1rem;
+  font-weight: 700;
+  padding: 0.5rem;
+  margin: 0 2px;
+  cursor: pointer;
+  text-transform: uppercase;
+}
