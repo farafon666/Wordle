@@ -9,6 +9,14 @@
     <title>Wordle</title>
 </head>
 <body>
+  <!-- Новый блок с уведомлением на странице -->
+  <div class="alert" id="pop">
+    <!-- Добавение крестика и обработчика события -->
+    <span class="closebtn" onclick="del()">×</span>
+    <!-- Надпись на плашке -->
+    My GitHub - <a href="https://github.com/farafon666">farafon666</a>
+  </div>
+
   <h1> Playing Wordle </h1>
 
   <div id = "game-board">
@@ -66,6 +74,7 @@
   integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
   crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
+  <script src="script-del.js"></script>
   <script src="script.js" type="module"></script>
 </body>
 </html>

@@ -3,6 +3,32 @@ html, body {
   background: linear-gradient(to bottom right, rgb(85, 44, 90), rgb(69, 72, 75));
 }
 
+/* Панель с нашим уведомлением */
+.alert {
+  padding: 13px 13px 16px 13px;
+  background-color: orange;
+  color: white;
+  font-family: Arial, sans-serif;
+  margin-bottom: 15px;
+}
+
+/* Внешний вид крестика */
+.closebtn {
+  margin-left: 15px;
+  color: white;
+  font-weight: bold;
+  float: right;
+  font-size: 26px;
+  line-height: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+/* Смена цвета крестика на чёрный при наведении */
+.closebtn:hover {
+  color: black;
+}
+
 /* Header */
 h1 {
   text-align: center;
